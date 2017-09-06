@@ -1,8 +1,10 @@
-This directory contains the code running on Central Node.
+# Central Node.
 
-Please note that code for MVG and Kalman Filtering is replaced by a naive implementation, due to the former code is ruined by hard-coded parameters related to the camera configuration. 
+Please note that code for MVG and Kalman Filtering is replaced by a naive implementation. 
+The former implementation, which contains hard-coded parameters related to the camera configuration, is unable to reproduce after the demonstration. :<
 
-TODO: 
+
+## TODO: 
 -  Code is too dirty. (team-work with C++ beginner)
 -  Remove precompiled paho.
 
