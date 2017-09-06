@@ -1,0 +1,10 @@
+[Unit]
+Description=TJUCAM Reconstruct
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_reconstruct.sh start
+User=root
+
+[Install]
+WantedBy=default.target

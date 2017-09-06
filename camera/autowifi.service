@@ -1,0 +1,12 @@
+[Unit]
+Description=TJUCAM WiFI
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_wifi.sh start
+ExecStop=/bin/bash /home/alarm/stop_wifi.sh start
+User=root
+#RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

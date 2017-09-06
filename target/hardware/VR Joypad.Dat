@@ -1,0 +1,11 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~VR Joypad.PrjPcb|ReportField=ProjectFullPath~C:\ESP8266\PCB\VR Joypad 2.0\VR Joypad.PrjPcb|ReportField=Title~Bill of Materials For Project [VR Joypad.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~22|ReportField=ReportTime~12:04:33|ReportField=ReportDate~2017/5/21|ReportField=ReportDateTime~2017/5/21 12:04:33|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2017/5/21|ReportField=CurrentTime~12:02:54|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\ESP8266\PCB\VR Joypad 2.0\VR joypad.SchDoc|ReportField=DocumentName~VR joypad.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2017/5/21|ReportField=Organization~|ReportField=ProjectName~VR Joypad.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~VR Joypad.PrjPcb|ReportField=DataSourceFullPath~C:\ESP8266\PCB\VR Joypad 2.0\VR Joypad.PrjPcb
+1|joystick|||joystick|joystick|1
+2|key||A, B, key, X, Y|PCBComponent_1 - duplicate|key|5
+3|Header 2|Header, 2-Pin|J1, J2, J3, J4|HDR1X2|Header 2|4
+4|Header 3|Header, 3-Pin|J5|HDR1X3|Header 3|1
+5|LED|Header, 2-Pin|LED|HDR1X2|Header 2|1
+6|LED_Power||LED_Power|PCBComponent_1 - duplicate1|Power|1
+7|WIFI||MCU|PCBComponent_1|Component_1|1
+8|IIC|Header, 10-Pin|MPU9250 module|HDR1X10|Header 10|1
+9|Res3|Resistor|R1, R2, R3, R4, R5, R6|6-0805_N|Res3|6
+10|USBpower|Header, 4-Pin|USBpower|HDR1X4|Header 4|1

@@ -1,0 +1,12 @@
+[Unit]
+Description=TJUCAM Factorymode
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_factorymode.sh start
+
+User=root
+#RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

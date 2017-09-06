@@ -1,0 +1,10 @@
+[Unit]
+Description=TJUCAM Center Node
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_center.sh start
+User=root
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=TJUCAM Camera Node
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_cam.sh start
+User=root
+
+[Install]
+WantedBy=default.target

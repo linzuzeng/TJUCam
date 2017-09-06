@@ -1,0 +1,10 @@
+[Unit]
+Description=TJUCAM Streamming Service
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_stream.sh start
+User=root
+
+[Install]
+WantedBy=default.target

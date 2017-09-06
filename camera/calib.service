@@ -1,0 +1,10 @@
+[Unit]
+Description=TJUCAM Calibration Reciver
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/alarm/start_calib.sh start
+User=root
+
+[Install]
+WantedBy=default.target

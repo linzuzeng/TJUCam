@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>CAMERA NODE - FACTORY MODE</title>
+</head>
+<body id="index" style="margin:0; padding:0;" >
+
+  <h1>CAMERA NODE - FACTORY MODE</h1>
+<p>======CLUSTER=======</p>
+  <p><a href="./exec?cmd=./findmqtt.sh">Show CENTER NODE </a> </p>
+  <p><a href="./exec?cmd=./listnodes.sh">Show CAMERA NODES</a> </p>
+  <a href="./exec?cmd=./cluster.sh&arg=v4l2-ctl -c auto_exposure=1; v4l2-ctl -c exposure_time_absolute=2">adjustexp</a>
+  <p>Tracker
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl start cam">start</a> 
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl stop cam">stop</a> 
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl status cam">status</a>  
+  </p>
+  <p>Video Stremming 
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl start stream">start</a> 
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl stop stream">stop</a> 
+  <a href="./exec?cmd=./cluster.sh&arg=sudo systemctl status stream">status</a>  
+  </p>
+  <p><a href="./exec?cmd=./cluster.sh&arg=sudo reboot now">Reboot</a> </p>
+  <p><a href="./exec?cmd=./cluster.sh&arg=sudo shutdown now">Shutdown</a> </p>
+  <p>======SINGLE NODE=======</p>
+  <p><a href="./exec?cmd=hostname">Show Hostname</a>
+  <p>Tracker for known target N/A</p>
+  <p>Tracker
+  <a href="./systemctl?cmd=start cam">start</a> 
+  <a href="./systemctl?cmd=stop cam">stop</a> 
+  <a href="./systemctl?cmd=status cam">status</a>  
+  </p>
+  <p>Video Stremming 
+  <a href="./systemctl?cmd=start stream">start</a>
+  <a href="./systemctl?cmd=stop stream">stop</a>
+  <a href="./systemctl?cmd=status stream">status</a>
+  </p>
+  <p>CenterNode
+  <a href="./systemctl?cmd=start center">start</a>
+  <a href="./systemctl?cmd=stop center">stop</a>
+  <a href="./systemctl?cmd=status center">status</a>
+  </p>
+<p>Calibration Receiver
+  <a href="./systemctl?cmd=start calib">start</a>
+  <a href="./systemctl?cmd=stop calib">stop</a>
+  <a href="./systemctl?cmd=status calib">status</a>
+  </p>
+<p>Reconstruction
+  <a href="./systemctl?cmd=start reconstruct">start</a>
+  <a href="./systemctl?cmd=stop reconstruct">stop</a>
+  <a href="./systemctl?cmd=status reconstruct">status</a>
+  </p>
+
+  <p><a href="./exec?cmd=reboot&arg=now">Reboot</a> </p>
+  <p><a href="./exec?cmd=shutdown&arg=now">Shutdown</a> </p>
+  
+</body>
+</html>

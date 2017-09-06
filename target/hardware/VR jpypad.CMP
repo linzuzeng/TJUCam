@@ -1,0 +1,15 @@
+Component   : PCBComponent_1
+PCB Library : VR jpypad.PcbLib
+Date        : 2017/4/29
+Time        : 22:41:33
+
+
+
+Dimension : 0.968 x 1.468 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Multi Layer                30          0        0       0        0
+ Top Overlay                 0         24        0       0        1
+--------------------------------------------------------------------
+ Total                      30         24        0       0        1
