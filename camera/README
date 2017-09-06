@@ -1,7 +1,9 @@
-This directory contains the code running on every Camera Node and Central Node.
-It can be compiled on Raspberry Pi with Arch Linux. 
+# Camera Node and Central Node
+This directory contains the code running on every Camera Node and Central Node, which can be compiled on Raspberry Pi with Arch Linux.
+
 To install the compiled binary on other nodes, upload all the files to Raspberry Pi, and run `sudo ./install_services.sh` .
 
-Please note that code for MVG and Kalman Filtering is replaced by a naive implementation, due to the former code is ruined by hard-coded parameters related to the camera configuration. 
+Please note that code for MVG and Kalman Filtering is replaced by a naive implementation. 
+The former implementation, which contains hard-coded parameters related to the camera configuration, is unable to reproduce after the demonstration. :<
 
 TODO: Automatic calibration using third-party library like OpenMVG or OpenCV.
