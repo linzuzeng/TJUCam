@@ -33,7 +33,7 @@ Inspired by [[1]](https://github.com/cbuchner1/driver_leap) and [[2]](http://www
 - Central Node
      + PC with good enough video card for VR rendering
      + VR headset or cardboard (optional)
-## Software Dependency
+## Dependency
 -	 Camera Node
      +  Arch Linux for ARM
      +  OpenCV 3.1
@@ -54,7 +54,11 @@ Inspired by [[1]](https://github.com/cbuchner1/driver_leap) and [[2]](http://www
      +  paho.mqtt.c
      +  Avahi
      +  base-devel, gcc and golang (build)
-     
+    
+## Images
+[![TargetNode](https://github.com/linzuzeng/TJUCam/raw/master/target/target.jpg)](https://github.com/linzuzeng/TJUCam/tree/master/target)
+[![TargetNode](https://github.com/linzuzeng/TJUCam/raw/master/target/pcb_rend.png)](https://github.com/linzuzeng/TJUCam/tree/master/target)
+
 # Note
 This project was built for a Hackathon-style event held in Jun, 2017 at TJU. 
 Currently, it is able to demonstrate basic functionality, but the design and code need more polish due to limited time.
